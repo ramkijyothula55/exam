@@ -17,7 +17,7 @@ int main(int argc, char const *argv[])
     fd = open("mydocument", O_RDONLY);
     read(fd, buff, 64);
     printf("P2: got data %s from P1\n", buff);
-    printf("length of the string :",buff);
+    printf("length of the string :");
     close(fd);
     return 0;
 }
